@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Inicio</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsenui.css">
+ 	 <link rel="stylesheet" href="https://unpkg.com/onsenui/css/old-onsen-css-components.min.css">
+  	<script src="https://unpkg.com/onsenui/js/onsenui.min.js"></script>
+</head>
+<body>
+
+<div class="toolbar toolbar--material">
+	<div class="toolbar__left toolbar--material__left">
+		
+	</div>
+	 
+	  <div class="toolbar__right toolbar--material__right">
+		<span class="toolbar-button toolbar-button--material_right">
+	     	<i class="zmdi zmdi-more-vert zmdi-hc-lg" style="color:white;"></i>
+	    </span>
+  </div>
+</div>
+	
+<div class="contenido" >
+
+  <!-- Carrusel -->
+  <ons-carousel fullscreen swipeable auto-scroll overscrollable id="carousel">
+
+    <!-- Item Carrusel (Transporte)-->
+    <ons-carousel-item>
+      <ons-card style="height: 95%; margin-top: 15px;">
+        <center><h4>Horarios de Transporte</h4></center>
+        <!-- Item tarjeta -->
+        <ons-card style="height: 30%; background: rgba(0,0,0,.02); margin-top: 30px;">
+          <center>Juriquilla - CU</center>
+            <p id="horariosCJ">11:00, 13:00, 14:10, 13:00, 16:00, 16:30, 17:30, 17:10</p>
+        </ons-card>
+        <!-- Item tarjeta -->
+        <ons-card style="height: 30%; background: rgba(0,0,0,.02); margin-top: 30px;">
+
+          <center>
+            CU - Juriquilla
+          </center>
+            <!-- Horarios -->
+            <p id="horariosCJ">11:00, 13:00, 14:10, 13:00, 16:00, 16:30, 17:30, 17:10</p>
+
+        </ons-card>
+      </ons-card>
+    </ons-carousel-item>
+
+    <!-- Item Carrusel (Clases) -->
+    <ons-carousel-item>
+      <ons-card style="height: 95%; margin-top: 15px;">
+        <!-- Item tarjeta -->
+        <center><h4>Horarios de Clases</h4>
+            <ons-search-input placeholder="Busca tu clase..."></ons-search-input>
+        </center>
+      </ons-card>
+    </ons-carousel-item>
+
+  </ons-carousel>
+
+ 
+
+
+
+</div>
+
+
+
+<div class="tabbar">
+  <label class="tabbar__item">
+    <input type="radio" name="tabbar-b" checked="checked">
+    <button class="tabbar__button">
+      <i class="zmdi zmdi-calendar zmdi-hc-lg"></i>
+    </button>
+  </label>
+
+  <label class="tabbar__item">
+    <input type="radio" name="tabbar-b" checked="checked">
+    <button class="tabbar__button">
+      <i class="zmdi zmdi-comments zmdi-hc-lg"></i>
+    </button>
+  </label>
+
+  <label class="tabbar__item">
+    <input type="radio" name="tabbar-b" checked="checked">
+    <button class="tabbar__button">
+      <i class="zmdi zmdi-time zmdi-hc-lg"></i>
+    </button>
+  </label>
+
+  <label class="tabbar__item">
+    <input type="radio" name="tabbar-b">
+    <button class="tabbar__button">
+      <i class="zmdi zmdi-money zmdi-hc-lg"></i>
+    </button>
+  </label>
+
+  <label class="tabbar__item">
+    <input type="radio" name="tabbar-b">
+    <button class="tabbar__button">
+    	<i class="zmdi zmdi-alert-circle zmdi-hc-lg"></i>
+    </button>
+  </label>
+
+</div>
+
+
+
+
+</body>
+</html>
