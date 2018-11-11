@@ -17,4 +17,8 @@
       Fernando Rincón
   </author>
 
+<allow-navigation href="*" />
+<allow-intent href="*" />
+<access origin="*" />
+
 </widget>
