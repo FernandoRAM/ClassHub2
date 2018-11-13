@@ -1,3 +1,6 @@
+function test(){
+	AndroidFullScreen.immersiveMode(function () { }, function () { });
+}
 function login(){
 
 	 var exp = document.getElementById('expediente').value;
