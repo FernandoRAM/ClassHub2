@@ -46,6 +46,8 @@ Autor: Fernando Rincón
 Versión: 1.0
 */
 
+
+
 /*
 * Función: pre_hash(str)
 * @author: Mendoza Burgos Rubén Andrés (ramby)
@@ -344,11 +346,11 @@ function foro(){
     " </ons-fab>"+
 	  "  <!-- Item -->"+
 	 "   <ons-card>"+
-	     "<span>Título genérico<i class='zmdi zmdi-chevron-right zmdi-hc-lg' style='float:right;'></i></span> "+
+	     "<span>Llaves perdidas<i class='zmdi zmdi-chevron-right zmdi-hc-lg' style='float:right;'></i></span> "+
 	  " </ons-card>"+
 	  "  <!-- Item -->"+
 	 "   <ons-card>"+
-	     "<span>Título genérico<i class='zmdi zmdi-chevron-right zmdi-hc-lg' style='float:right;'></i></span> "+
+	     "<span>Ayuda POO<i class='zmdi zmdi-chevron-right zmdi-hc-lg' style='float:right;'></i></span> "+
 	  " </ons-card>"+
 
 	" <!-- Lista de discusiones de todos -->"+
@@ -357,7 +359,7 @@ function foro(){
 	  
 	   " <!-- Item -->"+
 	   " <ons-card>"+
-	     "<span>Título genérico<i class='zmdi zmdi-chevron-right zmdi-hc-lg' style='float:right;'></i></span> "+
+	     "<span>Celular Olvidado<i class='zmdi zmdi-chevron-right zmdi-hc-lg' style='float:right;'></i></span> "+
 
 	   "</ons-card>"
      ;
