@@ -9,7 +9,7 @@ function login(){
 	 if (exp != '' && pass != '') {
 
 		loginAjax = new XMLHttpRequest();
-		loginAjax.open('GET', 'http://classhub.epizy.com/ClassHub/php/login.php?expediente='+exp+'&pass='+pre_hash(pass));
+		loginAjax.open('GET', 'http://localhost:9999/ClassHub/php/login.php?expediente='+exp+'&pass='+pre_hash(pass));
 		loginAjax.send();
 		loginAjax.onreadystatechange = function(){
 			if (loginAjax.readyState == 4 && loginAjax.status == 200) {
@@ -20,7 +20,7 @@ function login(){
 					if (respuesta != '0') {
 
 
-					 window.location.replace('http://classhub.epizy.com/ClassHub/index.html');
+					 window.location.replace('http://localhost:9999/ClassHub/index.html');
 
 					}else{
 						exp= '';
@@ -45,8 +45,6 @@ de que sus datos son incorrectos y debe intentarlo de nuevo.
 Autor: Fernando Rincón
 Versión: 1.0
 */
-
-
 
 /*
 * Función: pre_hash(str)
