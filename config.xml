@@ -77,7 +77,6 @@
     <plugin name="cordova-plugin-network-information"/>
     <plugin name="cordova-plugin-splashscreen" />
     <plugin name="cordova-plugin-vibration"/>
-    <plugin name="cordova-plugin-fullscreen" />
 
     <!-- Third party plugins -->
     <!-- A list of available plugins are available at https://build.phonegap.com/plugins -->
@@ -86,18 +85,18 @@
     -->
 
     <!-- Define app icon for each platform. -->
-    <icon src="logo.png"/>
-    <icon src="logo.png" gap:platform="android" gap:qualifier="ldpi"/>
-    <icon src="logo.png" gap:platform="android" gap:qualifier="mdpi"/>
-    <icon src="logo.png" gap:platform="android" gap:qualifier="hdpi"/>
-    <icon src="logo.png" gap:platform="android" gap:qualifier="xhdpi"/>
+    <icon src="logo.jpg"/>
+    <icon src="logo.jpg" gap:platform="android" gap:qualifier="ldpi"/>
+    <icon src="logo.jpg" gap:platform="android" gap:qualifier="mdpi"/>
+    <icon src="logo.jpg" gap:platform="android" gap:qualifier="hdpi"/>
+    <icon src="logo.jpg" gap:platform="android" gap:qualifier="xhdpi"/>
 
 
     <!-- Define app splash screen for each platform. -->
-    <gap:splash src="logo.png" gap:platform="android" gap:qualifier="port-ldpi"/>
-    <gap:splash src="logo.png" gap:platform="android" gap:qualifier="port-mdpi"/>
-    <gap:splash src="logo.png" gap:platform="android" gap:qualifier="port-hdpi"/>
-    <gap:splash src="logo.png" gap:platform="android" gap:qualifier="port-xhdpi"/>
+    <gap:splash src="logo.jpg" gap:platform="android" gap:qualifier="port-ldpi"/>
+    <gap:splash src="logo.jpg" gap:platform="android" gap:qualifier="port-mdpi"/>
+    <gap:splash src="logo.jpg" gap:platform="android" gap:qualifier="port-hdpi"/>
+    <gap:splash src="logo.jpg" gap:platform="android" gap:qualifier="port-xhdpi"/>
 
 
     <!--
